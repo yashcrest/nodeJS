@@ -8,7 +8,7 @@ const server = http.createServer((req, res) => {
   //     path.join(__dirname, 'public', 'index.html'),
   //     (err, content) => {
   //       if (err) throw err;
-  //       res.writeHead(200, { 'Content-Type': 'text/html' });
+  //       res.writeHead(200, {'Content-Type': 'text/html'});
   //       res.end(content);
   //     }
   //   );
